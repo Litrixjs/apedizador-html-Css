@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+}
+header{
+    background-color: #8B4513;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #D2B48C;
+}
+header .list-items{
+    display: flex; 
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+}
+header .menu{
+    justify-content: space-between;
+}
+.list-items li a{
+    color: #D2B48C;
+}
+.apresentacao{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao .texto-apresentacao{
+    min-height: 200px;
+}
+.texto-apresentacao h1{
+    color: chartreuse;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.texto-apresentacao a{
+    background-color: #8B4513;
+    color: #D2B48C;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#quem-somos{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#quem-somos h2{
+    font-size: 32px;
+    color: #8B4513;
+    display: flex;
+    margin-bottom: 20px;
+}
+#quem-somos h2::before{
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px; 
+    background-color: #8B4513;
+    position: relative;
+}
+#quem-somos p{
+    margin-bottom: 10px;
+    width: 50%;
+}
+#quem-somos img{
+    min-width: 420px;
+}
+.container-externo{
+    background-color: #D2B48C;
+    width: 100%;
+}
+#servimos{
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#servimos h2{
+    color: #8B4513;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#servimos h3{
+    color: #8B4513;
+}
+.list-menu{
+    justify-content: space-between;
+    height: 1400px;
+    width: 900px;
+    align-items: center;
+}
+.itens-menu{
+    background-color: #D2B48C;
+    height: 300px;
+    max-width: 240px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.itens-menu img{
+    width: 100%;
+}
+.itens-menu a{
+    width: 100px;
+    background-color: #8B4513;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 5px 10px;
+    color: #D2B48C;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+   
+}
+.itens-menu p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #8B4513;
+    margin-top: 20px;
+}
+.PrecoCompra{
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    justify-content: end;
+}
+.imagem{
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: start;
+}
+.flex-container .itens-menu{
+    margin: 25px;
+}
+#entregas{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    max-width: 1200px;
+}
+.tipos{
+    display: flex; 
+    max-width: 992px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.tipos h2{
+    font-size: 32px;
+    color: #8B4513;
+    display: flex;
+    margin-bottom: 20px;
+}
+.list-entregas{
+    display: flex; 
+    justify-content: space-between;
+    width: 80%;
+    min-width: 900px;
+    height: 250px;
+    align-items: flex-end;
+}
+.item-entregas{
+    flex: 1;
+    border: 5px solid #8B4513;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 500px;
+    height: 200px;
+}
+.item-entregas .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+.item-entregas h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+.item-entregas h3::after{
+    content: "";
+    background-color: #8B4513;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.list-entregas ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.item-entregas ul li{
+    direction: flex;
+    flex-wrap: nowrap;
+    list-style-type: square;
+    color: #8B4513;
+}
+.item-entregas ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #8B4513;
+    margin-right: 5px;
+}
+.WhatsApp{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 992px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.WhatsApp img{
+    width: 80%;
+}
+footer{
+    background-color: #122a57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+footer .footer{
+    justify-content: space-between;
+    color: #fff;
+}
